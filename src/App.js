@@ -27,14 +27,14 @@ function App() {
  
     <nav className="flex-space nav-bar mobile">
       <img src={logo} className="logo" alt="Shoe store logo"/>
-      <Link to="/home" className='link'>Home</Link>
+      <Link to="/" className='link'>Home</Link>
       <Link to="/shop" className='link'>Shop</Link>
       <Link to="/blog" className='link'>Blog</Link>
       <Link to="/contact" className='link'>Contact</Link>
     </nav>
 
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/shop" element={<Shop />} />
       <Route path='/shop/:name' element={<EachShoe />} />
       <Route path="/blog" element={<Blog />} />
