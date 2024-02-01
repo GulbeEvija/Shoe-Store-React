@@ -1,0 +1,39 @@
+.active {
+    padding: 5px 10px;
+    border: 2px solid rgb(147, 48, 177);
+    cursor: pointer;
+    }
+    
+.default {
+    padding: 5px 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    }
+    
+.content {
+    padding: 30px 10px;
+    width: fit-content;
+    color: black;
+    
+}
+
+.blogHeaderTwo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #4b1c66;
+  }
+  
+  .blogText {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+  }
+
+  .questionContainer {
+    width: 450px;
+  }
+
+  @media all and (max-width: 500px) {
+    .questionContainer {
+        width: 300px;
+      }
+}
