@@ -51,7 +51,10 @@ function Home() {
                         <img className='bluePic' src={loafersHome} width="550px" height="550px" alt="Shoes"/>
                         <h4 className='blogHeader'>Downtown loafers</h4>
                         <p className='blogText'>Modern and polished with a dose of effortless edge.</p>
-                        <button className='myButton'><a href={`/shop`} rel="noreferrer" className='shopLink'>Shop flats & loafers</a></button>
+                        
+                        <Link to={`/shop`}>
+                            <button className='myButton'>Shop flats & loafers</button>
+                        </Link>
                     </div>
                 </div>
             </div>
