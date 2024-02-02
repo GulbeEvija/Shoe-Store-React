@@ -4,7 +4,6 @@ import loafersHome from './picturesOther/loafersHome.jpg';
 import { Link } from "react-router-dom";
 
 import Footer from './Footer';
-// import SlidesBootstrap from './SlidesBootstrap';
 
 
 function Home() {
@@ -32,7 +31,9 @@ function Home() {
 
             <div>
                 <h2 className='spring'>SPRING / SUMMER 2024</h2>
-                <button className='springBtn'><a href={`/shop`} rel="noreferrer" className='springLink'>SHOP THE COLLECTION</a></button>
+                <Link to={`/shop`}>
+                    <button className='myButton springLink'>Shop pumps!</button>
+                </Link>
             </div>
 
 {/* shop 2 types */}
