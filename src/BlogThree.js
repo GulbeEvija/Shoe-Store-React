@@ -6,6 +6,7 @@ import summerFive from './picturesShoes/summerFive.png';
 import summerSix from './picturesShoes/summerSix.png';
 import summerSeven from './picturesShoes/summerSeven.png';
 import Footer from './Footer';
+import { Link } from "react-router-dom";
 
 
 function BlogThree() {
@@ -20,7 +21,9 @@ function BlogThree() {
                 <div className="container">
                     <h3 className="blogHeader">Strappy Sandals</h3>
                     <img src={summerOne} width="420px" height="320px" alt="Shoes"/>
-                    <button className='shoeButton'><a href={`/shop/Red-sandals`}  rel="noreferrer" className='shopLink'>Buy this shoe!</a></button>
+                    <Link to={`/shop/Red-sandals`}>
+                        <button className='shoeButton shopLink'>Buy this shoe!</button>
+                    </Link>
                 </div>
 
             <div className="container">

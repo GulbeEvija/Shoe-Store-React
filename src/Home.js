@@ -32,7 +32,7 @@ function Home() {
             <div>
                 <h2 className='spring'>SPRING / SUMMER 2024</h2>
                 <Link to={`/shop`}>
-                    <button className='springLink'>Shop the new collection</button>
+                    <button className='springBtn springLink'>Shop the new collection</button>
                 </Link>
             </div>
 
