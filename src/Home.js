@@ -22,7 +22,10 @@ function Home() {
                 <div className='home-container'>
                     <h2 className='welcome'>Welcome to the Shoe Store!</h2>
                     <p className='welcomeText'>A place for modern women</p>
-                    <button className='shopButton'><a href={`/shop`} rel="noreferrer" className='homeLink'>SHOP NOW</a></button>
+                    <Link to={`/shop`}>
+                        <button className='shopButton homeLink'>SHOP NOW</button>
+                    </Link>
+                    
                 </div>
             </div>
             {/* summer collection and cta */}
@@ -51,7 +54,7 @@ function Home() {
                         <img className='bluePic' src={loafersHome} width="550px" height="550px" alt="Shoes"/>
                         <h4 className='blogHeader'>Downtown loafers</h4>
                         <p className='blogText'>Modern and polished with a dose of effortless edge.</p>
-                        
+
                         <Link to={`/shop`}>
                             <button className='myButton'>Shop flats & loafers</button>
                         </Link>
@@ -64,7 +67,9 @@ function Home() {
 
             <div className='container'>
                     <h2 className='spring'>Explore The shoe blog</h2>
-                    <button className='springBtn'><a href={`/blog/blogOne`} rel="noreferrer" className='springLinkTwo'>read the newest article</a></button>
+                    <Link to={`/blog/blogOne`}>
+                        <button className='springBtn springLinkTwo'>read the newest article</button>
+                    </Link>
                 </div>
 
             {/* social media */}
