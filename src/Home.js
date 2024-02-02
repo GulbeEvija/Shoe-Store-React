@@ -1,6 +1,7 @@
 import video from './picturesOther/homeVideo.mp4';
 import pumpsHome from './picturesOther/pumpsHome.jpg';
 import loafersHome from './picturesOther/loafersHome.jpg';
+import { Link } from "react-router-dom";
 
 import Footer from './Footer';
 // import SlidesBootstrap from './SlidesBootstrap';
@@ -39,7 +40,11 @@ function Home() {
                         <img className='bluePic' src={pumpsHome} width="550px" height="550px" alt="Shoes"/>
                         <h4 className='blogHeader'>Uptown pumps</h4>
                         <p className='blogText'>Add luxury to your work wardrobe with these elevated silhouettes.</p>
-                        <button className='myButton'><a href={`/shop`} rel="noreferrer" className='shopLink'>Shop pumps</a></button>
+
+                        <Link to={`/shop`}>
+                            <button className='myButton'>Shop pumps!</button>
+                        </Link>
+                        
                     </div>
 
                     <div className='container margin'>
