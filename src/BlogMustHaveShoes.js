@@ -2,11 +2,9 @@ import { useState } from "react";
 import Footer from "./Footer";
 import Slider from "./Slider";
 import { dataSlider } from "./dataSlider";
-import { useParams } from "react-router-dom";
 
 function BlogMustHaveShoes() {
 
-    const { name } = useParams();
    
     const [slides, setSlides] = useState(0);
     const slidePhotoOne = dataSlider[slides];

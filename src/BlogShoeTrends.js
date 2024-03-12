@@ -1,12 +1,10 @@
 import { useState } from "react";
 import { dataShoeTrends } from "./dataShoeTrends";
 import Footer from "./Footer";
-import { useParams } from "react-router-dom";
 
 
 function BlogShoeTrends() {
     
-    const { name } = useParams();
 
     const [shoes, setShoes] = useState(dataShoeTrends);
 

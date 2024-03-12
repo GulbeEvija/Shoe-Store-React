@@ -2,12 +2,9 @@ import { useState } from 'react';
 import Footer from './Footer';
 import SummerShoesContent from './SummerShoesContent';
 import { dataSummerShoes } from './dataSummerShoes';
-import { useParams } from 'react-router-dom';
 
 
 function BlogSummerShoes() {
-    
-    const { name } = useParams();
 
     const [summerShoes, setSummerShoes] = useState(dataSummerShoes);
 
