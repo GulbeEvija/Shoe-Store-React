@@ -15,13 +15,11 @@ function Contact() {
             </div>
 
 
-            {/* FAQ */}
             <div className="container">
                 <h2 className="blogTitle">Frequently Asked Questions (FAQ)</h2>
                 <Accordion />
             </div>
 
-            {/* social media */}
             <div className="padding">
                 <Footer />
             </div>

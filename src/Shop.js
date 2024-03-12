@@ -11,7 +11,6 @@ function Shop() {
     
     return (
 
-
         <div>
             <div className="titleContainer container">
                 <h2 className="blogTitle">Shop</h2>
@@ -21,12 +20,7 @@ function Shop() {
             <Buttons setAllShoes={setAllShoes} dataShop={dataShop}/>
             <Shoes shoesForSale={allShoes} />
 
-
-
-            {/* social media */}
-            <div>
-                <Footer />
-            </div>
+            <Footer />
         </div>
     );
 }

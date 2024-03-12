@@ -8,7 +8,6 @@ function EachShoe() {
     const { name } = useParams();
 
 
-
     return (
         <div>
             {dataShop.filter((item) => item.name === name).map((elem, index) => {

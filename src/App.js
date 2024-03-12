@@ -1,5 +1,4 @@
-import React from "react";
-import logo from './picturesOther/shoeStoreLogo.png';
+import logo from './assets/picturesOther/shoeStoreLogo.png';
 
 
 import {
@@ -13,12 +12,13 @@ import Home from "./Home";
 import Shop from "./Shop";
 import EachShoe from "./EachShoe";
 import Blog from "./Blog";
-import BlogOne from "./BlogOne";
-import BlogTwo from "./BlogTwo";
-import BlogThree from "./BlogThree";
 import Contact from "./Contact";
+import BlogSummerShoes from './BlogSummerShoes';
+import BlogShoeTrends from './BlogShoeTrends';
+import BlogMustHaveShoes from './BlogMustHaveShoes';
 
 function App() {
+
   return (
     <Router>
       <div className="flex-center shipping">
@@ -30,6 +30,9 @@ function App() {
       <Link to="/" className='link'>Home</Link>
       <Link to="/shop" className='link'>Shop</Link>
       <Link to="/blog" className='link'>Blog</Link>
+      <Link to="/blogShoeTrends" className='link'>Trends</Link>
+      <Link to="/blogMustHaveShoes" className='link'>Must have</Link>
+      <Link to="/blogSummerShoes" className='link'>Summer shoes</Link>
       <Link to="/contact" className='link'>Contact</Link>
     </nav>
 
@@ -38,9 +41,9 @@ function App() {
       <Route path="/shop" element={<Shop />} />
       <Route path='/shop/:name' element={<EachShoe />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/blogOne" element={<BlogOne />} />
-      <Route path="/blog/blogTwo" element={<BlogTwo />} />
-      <Route path="/blog/blogThree" element={<BlogThree />} />
+      <Route path="/blogShoeTrends" element={<BlogShoeTrends />} />
+      <Route path="/blogMustHaveShoes" element={<BlogMustHaveShoes />} />
+      <Route path="/blogSummerShoes" element={<BlogSummerShoes />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   

@@ -1,11 +1,14 @@
 import { useState } from "react";
-import { dataOne } from "./dataOne";
+import { dataShoeTrends } from "./dataShoeTrends";
 import Footer from "./Footer";
+import { useParams } from "react-router-dom";
 
 
-function BlogOne() {
+function BlogShoeTrends() {
+    
+    const { name } = useParams();
 
-    const [shoes, setShoes] = useState(dataOne);
+    const [shoes, setShoes] = useState(dataShoeTrends);
 
     const removeShoes = (id) => {
         let newShoes = shoes.filter(shoe => shoe.id !== id);
@@ -22,14 +25,16 @@ function BlogOne() {
 
             <div className="container">
             {shoes.map((element => {
-                const {id, name, imageOne, imageTwo, imageThree} = element;
+                const {id, name, images} = element;
+
 
                 return (
                     <div key={id}>
                         <div className="margin-top">
-                            <img className="trendPic" src={imageOne} alt="Shoes" width="300px" height="350px"/>
-                            <img className="trendPic" src={imageTwo} alt="Shoes" width="300px" height="350px"/>
-                            <img className="trendPic" src={imageThree} alt="Shoes" width="300px" height="350px"/>
+                            {images.map((image, id) => (
+                                <img key={id} className="trendPic" src={image} alt="Shoes" width="300px" height="350px"/>
+                            ))}
+
                         </div>
 
                         <div className="container padding">
@@ -41,11 +46,10 @@ function BlogOne() {
             }))}
 
             <div className="padding">
-                <button className="deleteAll" onClick={() => setShoes([])}>Delete  all!</button>
+                <button className="deleteAll" onClick={() => setShoes([])}>Delete all!</button>
             </div>
             
-            
-            {/* social media */}
+
             <div className="margin-top">
                 <Footer />
             </div>
@@ -55,4 +59,4 @@ function BlogOne() {
     )
 }
 
-export default BlogOne;
+export default BlogShoeTrends;

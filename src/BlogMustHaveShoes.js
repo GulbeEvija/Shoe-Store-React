@@ -1,13 +1,23 @@
-import SlidesTwo from "./SlidesTwo";
-import SlidesFive from "./SlidesFive";
-import SlidesFour from "./SlidesFour";
-import SlidesOne from "./SlidesOne";
-import SlidesSix from "./SlidesSix";
-import SlidesThree from "./SlidesThree";
+import { useState } from "react";
 import Footer from "./Footer";
+import Slider from "./Slider";
+import { dataSlider } from "./dataSlider";
+import { useParams } from "react-router-dom";
 
-function BlogTwo() {
+function BlogMustHaveShoes() {
+
+    const { name } = useParams();
+   
+    const [slides, setSlides] = useState(0);
+    const slidePhotoOne = dataSlider[slides];
+    const slidePhotoTwo = dataSlider[slides];
+    const slidePhotoThree = dataSlider[slides];
+    const slidePhotoFour = dataSlider[slides];
+    const slidePhotoFive = dataSlider[slides];
+    const slidePhotoSix = dataSlider[slides];
+
     return (
+
         <div>
 
             <div className="titleContainer container">
@@ -17,38 +27,37 @@ function BlogTwo() {
             <div className="container">
                 <div className=" margin-top">
                     <h3 className="blogHeader">#1 - The polished flats</h3>
-                    <SlidesOne />
+                    <Slider slidePhoto={slidePhotoOne}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#2 - The fashion sneakers</h3>
-                    <SlidesTwo />
+                    <Slider slidePhoto={slidePhotoTwo}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#3 - The court shoes </h3>
-                    <SlidesThree />
+                    <Slider slidePhoto={slidePhotoThree}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#4 - The Chelsea boots</h3>
-                    <SlidesFour />
+                    <Slider slidePhoto={slidePhotoFour}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#5 - The showpiece shoe</h3>
-                    <SlidesFive />
+                    <Slider slidePhoto={slidePhotoFive}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#6 - The knee-high boots</h3>
-                    <SlidesSix />
-                </div>
+                    <Slider slidePhoto={slidePhotoSix}/>
+                </div> 
                 
             </div>
             
 
-            {/* social media */}
             <div className="margin-top">
                 <Footer />
             </div>
@@ -57,4 +66,4 @@ function BlogTwo() {
 }
 
 
-export default BlogTwo;
+export default BlogMustHaveShoes;

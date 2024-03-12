@@ -1,8 +1,8 @@
-import instagramIcon from './picturesOther/instagramIcon.png';
-import facebookIcon from './picturesOther/facebookIcon.png';
-import tiktokIcon from './picturesOther/tiktokIcon.png';
-import pinterestIcon from './picturesOther/pinterestIcon.png';
-import twitterIcon from './picturesOther/twitterIcon.png';
+import instagramIcon from './assets/picturesOther/instagramIcon.png';
+import facebookIcon from './assets/picturesOther/facebookIcon.png';
+import tiktokIcon from './assets/picturesOther/tiktokIcon.png';
+import pinterestIcon from './assets/picturesOther/pinterestIcon.png';
+import twitterIcon from './assets/picturesOther/twitterIcon.png';
 
 function Footer() {
     return (

@@ -1,10 +1,12 @@
 import Footer from "./Footer";
-import summerOne from './picturesShoes/summerOne.png';
-import lepardTwo from './picturesShoes/lepardTwo.png';
-import flatTwo from './picturesShoes/flatTwo.png';
-import { Link } from "react-router-dom";
+import BlogContent from "./BlogContent";
+import { dataBlogContent } from "./dataBlogContent";
+import { useState } from "react";
 
 function Blog() {
+
+    const [blog, setBlog] = useState(dataBlogContent);
+
     return (
         <div>
             <div className="titleContainer container">
@@ -12,38 +14,10 @@ function Blog() {
                 <p className="blogText">Get the newest information from the experts!</p>
             </div>
 
-            <div className="container">
+            <BlogContent blogContent={blog}/>
 
+            <Footer />
 
-                <div className="container">
-                    <h2 className="blogName">10 shoe trends for 2024!</h2>
-                    <img className="blogTwoPic" src={lepardTwo} width="420px" height="320px" alt="Shoes"/>
-                    <Link to={`/blog/blogOne`}>
-                        <button className='springBtn springLink'>Read the article</button>
-                    </Link>
-                </div>
-
-
-                <div className="container">
-                    <h2 className="blogName">6 Shoes Every Woman Should Have in Her Closet</h2>
-                    <img className="blogTwoPic" src={flatTwo} width="420px" height="320px" alt="Shoes"/>
-                    <Link to={`/blog/blogTwo`}>
-                        <button className='springBtn springLink'>Read the article</button>
-                    </Link>
-                </div>
-
-                <div className="container">
-                    <h2 className="blogName">7 Trending Shoes for Summer 2024!</h2>
-                    <img className="blogTwoPic" src={summerOne} width="420px" height="320px" alt="Shoes"/>
-                    <Link to={`/blog/blogThree`}>
-                        <button className='springBtn springLink'>Read the article</button>
-                    </Link>
-                </div>
-            </div>
-            {/* social media */}
-            <div>
-                <Footer />
-            </div>
         </div>
     );
 }

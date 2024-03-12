@@ -1,74 +1,74 @@
-import flatOne from './picturesShoes/flatOne.png';
-import flatTwo from './picturesShoes/flatTwo.png';
-import flatThree from './picturesShoes/flatThree.png';
+import flatOne from './assets/picturesShoes/flatOne.png';
+import flatTwo from './assets/picturesShoes/flatTwo.png';
+import flatThree from './assets/picturesShoes/flatThree.png';
 
-import sneakerOne from './picturesShoes/sneakerOne.png';
-import sneakerTwo from './picturesShoes/sneakerTwo.png';
-import sneakerThree from './picturesShoes/sneakerThree.png';
+import sneakerOne from './assets/picturesShoes/sneakerOne.png';
+import sneakerTwo from './assets/picturesShoes/sneakerTwo.png';
+import sneakerThree from './assets/picturesShoes/sneakerThree.png';
 
-import courtOne from './picturesShoes/courtOne.png';
-import courtTwo from './picturesShoes/courtTwo.png';
-import courtThree from './picturesShoes/courtThree.png';
+import courtOne from './assets/picturesShoes/courtOne.png';
+import courtTwo from './assets/picturesShoes/courtTwo.png';
+import courtThree from './assets/picturesShoes/courtThree.png';
 
-import chelseaOne from './picturesShoes/chelseaOne.png';
-import chelseaTwo from './picturesShoes/chelseaTwo.png';
-import chelseaThree from './picturesShoes/chelseaThree.png';
+import chelseaOne from './assets/picturesShoes/chelseaOne.png';
+import chelseaTwo from './assets/picturesShoes/chelseaTwo.png';
+import chelseaThree from './assets/picturesShoes/chelseaThree.png';
 
-import funOne from './picturesShoes/funOne.png';
-import funTwo from './picturesShoes/funTwo.png';
-import funThree from './picturesShoes/funThree.png';
+import funOne from './assets/picturesShoes/funOne.png';
+import funTwo from './assets/picturesShoes/funTwo.png';
+import funThree from './assets/picturesShoes/funThree.png';
 
-import bootOne from './picturesShoes/bootsOne.png';
-import bootTwo from './picturesShoes/bootTwo.png';
-import bootThree from './picturesShoes/bootThree.png';
+import bootOne from './assets/picturesShoes/bootsOne.png';
+import bootTwo from './assets/picturesShoes/bootTwo.png';
+import bootThree from './assets/picturesShoes/bootThree.png';
 
-import whiteOne from './picturesShoes/whiteOne.png';
-import whiteTwo from './picturesShoes/whiteTwo.png';
-import whiteThree from './picturesShoes/whiteThree.png';
+import whiteOne from './assets/picturesShoes/whiteOne.png';
+import whiteTwo from './assets/picturesShoes/whiteTwo.png';
+import whiteThree from './assets/picturesShoes/whiteThree.png';
 
-import bikerOne from './picturesShoes/bikerOne.png';
-import bikerwo from './picturesShoes/bikerTwo.png';
-import bikerThree from './picturesShoes/bikerThree.png';
+import bikerOne from './assets/picturesShoes/bikerOne.png';
+import bikerwo from './assets/picturesShoes/bikerTwo.png';
+import bikerThree from './assets/picturesShoes/bikerThree.png';
 
-import redOne from './picturesShoes/redOne.png';
-import redTwo from './picturesShoes/redTwo.png';
-import redThree from './picturesShoes/redThree.png';
+import redOne from './assets/picturesShoes/redOne.png';
+import redTwo from './assets/picturesShoes/redTwo.png';
+import redThree from './assets/picturesShoes/redThree.png';
 
-import furOne from './picturesShoes/furOne.png';
-import furTwo from './picturesShoes/furTwo.png';
-import furThree from './picturesShoes/furThree.png';
+import furOne from './assets/picturesShoes/furOne.png';
+import furTwo from './assets/picturesShoes/furTwo.png';
+import furThree from './assets/picturesShoes/furThree.png';
 
-import metalOne from './picturesShoes/metalOne.png';
-import metalTwo from './picturesShoes/metalTwo.png';
-import metalhree from './picturesShoes/metalThree.png';
+import metalOne from './assets/picturesShoes/metalOne.png';
+import metalTwo from './assets/picturesShoes/metalTwo.png';
+import metalhree from './assets/picturesShoes/metalThree.png';
 
-import platformOne from './picturesShoes/platformOne.png';
-import platformTwo from './picturesShoes/platformTwo.png';
-import platformThree from './picturesShoes/platformThree.png';
+import platformOne from './assets/picturesShoes/platformOne.png';
+import platformTwo from './assets/picturesShoes/platformTwo.png';
+import platformThree from './assets/picturesShoes/platformThree.png';
 
-import lepardOne from './picturesShoes/lepardOne.png';
-import lepardTwo from './picturesShoes/lepardTwo.png';
-import lepardThree from './picturesShoes/lepardThree.png';
+import lepardOne from './assets/picturesShoes/lepardOne.png';
+import lepardTwo from './assets/picturesShoes/lepardTwo.png';
+import lepardThree from './assets/picturesShoes/lepardThree.png';
 
-import overOne from './picturesShoes/overOne.png';
-import overTwo from './picturesShoes/overTwo.png';
-import overThree from './picturesShoes/overThree.png';
+import overOne from './assets/picturesShoes/overOne.png';
+import overTwo from './assets/picturesShoes/overTwo.png';
+import overThree from './assets/picturesShoes/overThree.png';
 
-import kittenOne from './picturesShoes/kittenOne.png';
-import kittenTwo from './picturesShoes/kittenTwo.png';
-import kittenThree from './picturesShoes/kittenThree.png';
+import kittenOne from './assets/picturesShoes/kittenOne.png';
+import kittenTwo from './assets/picturesShoes/kittenTwo.png';
+import kittenThree from './assets/picturesShoes/kittenThree.png';
 
-import puffyOne from './picturesShoes/puffyOne.png';
-import puffyTwo from './picturesShoes/puffyTwo.png';
-import puffyThree from './picturesShoes/puffyThree.png';
+import puffyOne from './assets/picturesShoes/puffyOne.png';
+import puffyTwo from './assets/picturesShoes/puffyTwo.png';
+import puffyThree from './assets/picturesShoes/puffyThree.png';
 
-import summerOne from './picturesShoes/summerOne.png';
-import summerTwo from './picturesShoes/summerTwo.png';
-import summerThree from './picturesShoes/summerThree.png';
-import summerFour from './picturesShoes/summerFour.png';
-import summerFive from './picturesShoes/summerFive.png';
-import summerSix from './picturesShoes/summerSix.png';
-import summerSeven from './picturesShoes/summerSeven.png';
+import summerOne from './assets/picturesShoes/summerOne.png';
+import summerTwo from './assets/picturesShoes/summerTwo.png';
+import summerThree from './assets/picturesShoes/summerThree.png';
+import summerFour from './assets/picturesShoes/summerFour.png';
+import summerFive from './assets/picturesShoes/summerFive.png';
+import summerSix from './assets/picturesShoes/summerSix.png';
+import summerSeven from './assets/picturesShoes/summerSeven.png';
 
 
 export const dataShop = [
