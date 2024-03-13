@@ -1,11 +1,10 @@
 import { useState } from "react";
-import { dataSlider } from "./dataSlider";
 
 
-function Slider() {
+function Slider({dataSlider}) {
 
     const [slides, setSlides] = useState(0);
-    const {id, slidePhoto} = dataSlider[slides];
+    const {id, slidesPhoto} = dataSlider[slides];
 
 
     const backPic = () => {
@@ -33,7 +32,7 @@ function Slider() {
             
             <div key={id} className="slideRow">
                 <button className="btnSlide" onClick={backPic}>Back</button>
-                <img className="blogTwoPic" src={slidePhoto} alt="Fashion" width="500px" height="350px"/>
+                <img className="blogTwoPic" src={slidesPhoto} alt="Fashion" width="500px" height="350px"/>
                 <button className="btnSlide" onClick={nextPic}>Next</button>
             </div>
         

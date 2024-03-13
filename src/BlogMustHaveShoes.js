@@ -1,18 +1,9 @@
-import { useState } from "react";
 import Footer from "./Footer";
 import Slider from "./Slider";
 import { dataSlider } from "./dataSlider";
 
 function BlogMustHaveShoes() {
 
-   
-    const [slides, setSlides] = useState(0);
-    const slidePhotoOne = dataSlider[slides];
-    const slidePhotoTwo = dataSlider[slides];
-    const slidePhotoThree = dataSlider[slides];
-    const slidePhotoFour = dataSlider[slides];
-    const slidePhotoFive = dataSlider[slides];
-    const slidePhotoSix = dataSlider[slides];
 
     return (
 
@@ -25,32 +16,32 @@ function BlogMustHaveShoes() {
             <div className="container">
                 <div className=" margin-top">
                     <h3 className="blogHeader">#1 - The polished flats</h3>
-                    <Slider slidePhoto={slidePhotoOne}/>
+                    <Slider dataSlider={dataSlider[0]}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#2 - The fashion sneakers</h3>
-                    <Slider slidePhoto={slidePhotoTwo}/>
+                    <Slider dataSlider={dataSlider[1]}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#3 - The court shoes </h3>
-                    <Slider slidePhoto={slidePhotoThree}/>
+                    <Slider dataSlider={dataSlider[2]}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#4 - The Chelsea boots</h3>
-                    <Slider slidePhoto={slidePhotoFour}/>
+                    <Slider dataSlider={dataSlider[3]}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#5 - The showpiece shoe</h3>
-                    <Slider slidePhoto={slidePhotoFive}/>
+                    <Slider dataSlider={dataSlider[4]}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#6 - The knee-high boots</h3>
-                    <Slider slidePhoto={slidePhotoSix}/>
+                    <Slider dataSlider={dataSlider[5]}/>
                 </div> 
                 
             </div>

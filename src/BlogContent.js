@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
+import { dataBlogContent } from "./dataBlogContent";
 
 
-function BlogContent({blogContent}) {
+function BlogContent() {
 
     return (
         <div>
-            {blogContent.map (( element => {
-                const {id, blogTitle, blogImage, name } = element;
+            {dataBlogContent.map (( element => {
+                const {id, blogTitle, blogImage, path } = element;
                 return (
                     <div key={id} className="container">
                         <h2 className="blogName">{blogTitle}</h2>
                         <img className="blogTwoPic" src={blogImage} alt="Shoe" width="420px" height="320px" />
-                        <Link to={`${element.name}`}>
+                        <Link to={`${element.path}`}>
                             <button className='springBtn springLink'>Read the article</button>
                         </Link>
     

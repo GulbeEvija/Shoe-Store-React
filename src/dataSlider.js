@@ -25,32 +25,32 @@ import bootThree from './assets/picturesShoes/bootThree.png';
 export const dataSlider = [
     {
         id: 1,
-        slidePhotoOne: flatOne,
-        slidePhotoTwo: sneakerOne, 
-        slidePhotoThree: courtOne,
-        slidePhotoFour: chelseaOne,
-        slidePhotoFive: funOne,
-        slidePhotoSix: bootOne
+        slidePhoto: [flatOne, flatTwo, flatThree]
     },
 
     {
         id: 2,
-        slidePhotoOne: flatTwo,
-        slidePhotoTwo: sneakerTwo,
-        slidePhotoThree: courtTwo,
-        slidePhotoFour: chelseaTwo,
-        slidePhotoFive: funTwo,
-        slidePhotoSix: bootTwo
+        slidePhoto: [sneakerOne, sneakerTwo, sneakerThree]
     },
 
     {
         id: 3,
-        slidePhotoOne: flatThree,
-        slidePhotoTwo: sneakerThree,
-        slidePhotoThree: courtThree,
-        slidePhotoFour: chelseaThree,
-        slidePhotoFive: funThree,
-        slidePhotoSix: bootThree
+        slidePhoto: [courtOne, courtTwo, courtThree]
+    },
+
+    {
+        id: 4,
+        slidePhoto: [chelseaOne, chelseaTwo, chelseaThree]
+    },
+
+    {
+        id: 5,
+        slidePhoto: [funOne, funTwo, funThree]
+    },
+
+    {
+        id: 6,
+        slidePhoto: [bootOne, bootTwo, bootThree]
     },
 
 ]

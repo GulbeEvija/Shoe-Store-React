@@ -8,20 +8,20 @@ export const dataBlogContent = [
         id: 1,
         blogTitle: "10 shoe trends for 2024!",
         blogImage: lepardTwo,
-        name: `/blogshoeTrends`
+        path: `/blogShoeTrends`
     },
 
     {
         id: 2,
         blogTitle: "6 Shoes Every Woman Should Have in Her Closet",
         blogImage: flatTwo,
-        name: `/blogmustHaveShoes`
+        path: `/blogMustHaveShoes`
     },
 
     {
         id: 3,
         blogTitle: "7 Trending Shoes for Summer 2024!",
         blogImage: summerOne,
-        name: `/blogsummerShoes`
+        path: `/blogSummerShoes`
     },
 ]
