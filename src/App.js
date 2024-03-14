@@ -30,9 +30,6 @@ function App() {
       <Link to="/" className='link'>Home</Link>
       <Link to="/shop" className='link'>Shop</Link>
       <Link to="/blog" className='link'>Blog</Link>
-      <Link to="/blogShoeTrends" className='link'>Trends</Link>
-      <Link to="/blogMustHaveShoes" className='link'>Must have</Link>
-      <Link to="/blogSummerShoes" className='link'>Summer shoes</Link>
       <Link to="/contact" className='link'>Contact</Link>
     </nav>
 

@@ -16,32 +16,32 @@ function BlogMustHaveShoes() {
             <div className="container">
                 <div className=" margin-top">
                     <h3 className="blogHeader">#1 - The polished flats</h3>
-                    <Slider dataSlider={dataSlider[0]}/>
+                    <Slider dataSlider={dataSlider[0].slidePhoto}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#2 - The fashion sneakers</h3>
-                    <Slider dataSlider={dataSlider[1]}/>
+                    <Slider dataSlider={dataSlider[1].slidePhoto}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#3 - The court shoes </h3>
-                    <Slider dataSlider={dataSlider[2]}/>
+                    <Slider dataSlider={dataSlider[2].slidePhoto}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#4 - The Chelsea boots</h3>
-                    <Slider dataSlider={dataSlider[3]}/>
+                    <Slider dataSlider={dataSlider[3].slidePhoto}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#5 - The showpiece shoe</h3>
-                    <Slider dataSlider={dataSlider[4]}/>
+                    <Slider dataSlider={dataSlider[4].slidePhoto}/>
                 </div>
 
                 <div className=" margin-top">
                     <h3 className="blogHeader">#6 - The knee-high boots</h3>
-                    <Slider dataSlider={dataSlider[5]}/>
+                    <Slider dataSlider={dataSlider[5].slidePhoto}/>
                 </div> 
                 
             </div>
